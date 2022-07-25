@@ -1,0 +1,30 @@
+.header {
+  height: 800px;
+  opacity: 0.5;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+footer {
+  margin-top: 40.5%;
+  height: 100px;
+  background-color: #f00;
+  color: white;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 12px 40px;
+}
+/*# sourceMappingURL=main.css.map */
