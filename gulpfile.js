@@ -22,7 +22,7 @@ gulp.task('html', function () {
 
 // Css Task
 gulp.task('css', function () {
-  return (
+  return 
     gulp
       .src('project/css/main.scss')
       .pipe(sourcemaps.init())
@@ -36,8 +36,7 @@ gulp.task('css', function () {
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('dist/Css'))
       .pipe(notify('CSS Task Is Done'))
-      .pipe(livereload())
-  );
+      .pipe(livereload());
 });
 
 // Js Task
