@@ -25,17 +25,17 @@ Leverage gulp and the flexibility of JavaScript to automate slow, repetitive wor
  - The first step is to install the gulp absolutely in the device
 
     ```js
-    $ npm install --global gulp-cli
+    npm install --global gulp-cli
     ```
 - Create a package.json file in your project directory
 
   ```js
-      $ npm init
+   npm init
   ```
 - Install the gulp package in your devDependencies
 
   ```js
-      $ npm install --save-dev gulp
+   npm install --save-dev gulp
   ```
 
 ## Create A Professional Structure And Your First Task
@@ -57,7 +57,7 @@ Leverage gulp and the flexibility of JavaScript to automate slow, repetitive wor
 - To run a task you run this command
 
   ```bash
-      gulp task-name
+   gulp task-name
   ```
 
 ## Copy Files From Source To Destination
